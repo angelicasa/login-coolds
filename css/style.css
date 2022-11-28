@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-login {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.img-login {
+  width: 50%;
+  height: 100%;
+  background-color: #e57162;
+  padding: 0px;
+}
+
+img {
+  width: 80%;
+  height: 100%;
+}
+
+.content-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  width: 50%;
+  color: #74559c;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #74559c;
+  font-weight: 600;
+  font-size: 2em;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.coolds {
+  color: #d87800;
+  font-family: "Righteous", cursive;
+  font-weight: 500;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-weight: 400;
+  border: none;
+  font-size: 16px;
+  color: #e17327;
+  background-color: #fff8f7;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: #ffd0ae;
+}
+
+input[type="submit"] {
+  background: #262261;
+  color: #f7ede2;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 4px 8px 2px rgba(38, 34, 97, 0.3);
+  box-shadow: 0px 4px 8px 2px rgba(38, 34, 97, 0.3);
+}
+
+input[type="submit"]:hover {
+  background: #4d3370;
+}
+
+input[type="submit"]:active {
+  position: relative;
+  top: 3px;
+}
+
+.forgot {
+  margin-bottom: 20px;
+  color: #32324f;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.forgot a {
+  text-decoration: none;
+  color: #e17327;
+}
+.forgot a:hover {
+  color: #216ca9;
+}
+
+.input-group a {
+  color: #e17327;
+}
+.input-group p a:hover {
+  color: #216ca9;
+}
+
+@media (max-width: 868px) {
+  .img-login {
+    display: none;
+  }
+  .container-login .content-group {
+    width: 100%;
+  }
+  .form-group {
+    width: 100%;
+    padding: 40px;
+    background: white;
+    margin: 50px;
+  }
+}
+@media (max-width: 450px) {
+  .container-login .content-group .form-box .forgot {
+    flex-wrap: wrap;
+  }
+  .container-login .content-group .form-group .forgot a {
+    margin-top: 20px;
+  }
+}
