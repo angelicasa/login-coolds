@@ -1,6 +1,6 @@
 # Coolds
 
-##HTML e CSS
+## HTML e CSS
 
 Tela de login feita com HTML e CSS para treinamento do que estou aprendendo na faculdade (PUC Minas - ead) durante o módulo de desenvolvimento web.
 
